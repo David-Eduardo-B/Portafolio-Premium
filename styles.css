@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    display: flex;
+}
+
+main{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header{
+    background-color: #868181;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    background-image: url(./thisisengineering-hoivM01c-vg-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Avatar{
+    border: 10px solid white;
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+    margin-top: 60px;
+    background-color: rgb(133, 128, 128);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.name{
+    text-align: center;
+    margin: 150px 0px 0px 0px;
+    font-size: 50px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social-container{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;    
+}   
+
+.proyect-container{
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.borde{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center
+}
