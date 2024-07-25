@@ -25,13 +25,13 @@ header{
 }
 
 .Avatar{
-    border: 10px solid white;
+    border: 10px solid rgb(255, 255, 255);
     border-radius: 50%;
     height: 320px;
     width: 320px;
     overflow: hidden;
     margin-top: 60px;
-    background-color: rgb(133, 128, 128);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     
@@ -39,13 +39,16 @@ header{
 
 .name{
     text-align: center;
-    margin: 150px 0px 0px 0px;
-    font-size: 50px;
+    margin: 100px 0px 0px 0px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .social{
     display: flex;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 .social-container{
@@ -53,19 +56,84 @@ header{
     display: flex;
     justify-content: space-between;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
+    height: 60px;
 }   
 
 .proyect-container{
     display: flex;
-    
-    margin-left: auto;
-    margin-right: auto;
-    
+    align-items: center;
 }
 
 .borde{
-    display: flex;
     border: 2px solid rgb(0, 0, 0);
-    text-align: center
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    max-width: 980px;
+    border-radius: 15px;
+}
+
+@media (max-width: 820px) {
+    .proyect-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-icons{
+        align-items: center;
+    }
+}
+
+.footer{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+}
+
+.texto{
+    display: flex;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutMe{
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    font-size: 20px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 35%;
+}
+
+.footer-text{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text p{
+    color: white;
+}
+
+.disenador{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
 }
